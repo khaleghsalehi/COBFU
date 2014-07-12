@@ -3,26 +3,34 @@ Welcome to COBFU
 
 Brief introduction:
 
-       COBFU is a research based project for Software Security improvement. This project mainly and not limited for source code
-has been programmed with C/C++ . Currently COBFU under research
-and implementation phase. Source code obfuscation is on of the "Defence in Depth" concept in software security, hope to make complexity during
-reverse engineering both in Static and Dynamic analyse.
+   COBFU is a research based project for Software Security improvement. This project mainly and not limited for source code
+has been programmed with C/C++ . Currently COBFU under research and implementation phase. Source code obfuscation is on of
+the "Defence in Depth" concept in software security, hope to make complexity during reverse engineering both in Static and
+Dynamic analyse. obfuscation is not actual definition for software security, indeed, it is providing a security through obscurity.
+This is an undeniable fact the authors have a talk with  deep point of view in their works[papers/books/publications]
 
-Architecture:
+Simple architecture:
 
-
-
-
-
+                                  +---------+
+       [C/C++ Source code]------> |  COBFU  |-------> [Obfuscated C/C++ code]
+                                  +---------+       
+How it works:
+       you can find out some good and valuable information in attached papers, everything is defined with details.
+Methods for source code obfuscation:
+1. Layout Transformation
+2. Data type Transformation
+3. CFG (Control Flow graph) Transformation
+       
+       
 
 
 Warning: COBFU for C/C++ is not completed yet, dont use it in your real projects or any operational environment, NOW!
 This project started afew days ago (21 May 2014), so there is challenges and we hope resolve issues as soon.
 if you have any concern to resolve or help us;  please contact us via khaleghsalehi@gmail.com
 The main idea for COBFU listed below:
-1. Layout obfuscation
-2. Data type obfuscation
-3. CFG (Control Flow graph) obfuscation
+1. Layout transformation
+2. Data type transformation
+3. CFG (Control Flow graph) transformation
 
 According to attached papers, you can find out some valuable information for design and implement strong obfuscation system.
 I am busy on research for CFG best practices, algorithm & implementation now ...
@@ -75,8 +83,8 @@ How to run[Refrence::https://github.com/ryarnyah/AnalyseC]:
     To test it:
     $ ./gram arithmetique.c
     $ ls
-    arithmetique.c arithmetique.c_ gram convert.h
-    $ gcc arithmetique.c_ convert.h -std=c99 -o test
+    arithmetique.c.c arithmetique.c_ gram convert.h
+    $ gcc arithmetique.c.c_ convert.h -std=c99 -o test
     $ ./test
     Usage : ./a.out [nbr] [nbr]
     
