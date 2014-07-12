@@ -5,8 +5,8 @@ Brief introduction:
 
    COBFU is a research based project for Software Security improvement. This project mainly and not limited for source code
 has been programmed with C/C++ . Currently COBFU under research and implementation phase. Source code obfuscation is on of
-the "Defence in Depth" concept in software security, hope to make complexity during reverse engineering both in Static and
-Dynamic analyse. obfuscation is not actual definition for software security, indeed, it is providing a security through obscurity.
+the "Defense in Depth" concept in software security, hope to make complexity during reverse engineering both in Static and
+Dynamic analyses. obfuscation is not actual definition for software security, indeed, it is providing a security through obscurity.
 This is an undeniable fact the authors have a talk with  deep point of view in their works[papers/books/publications]
 
 Simple architecture:
@@ -24,8 +24,8 @@ Methods for source code obfuscation:
        
 
 
-Warning: COBFU for C/C++ is not completed yet, dont use it in your real projects or any operational environment, NOW!
-This project started afew days ago (21 May 2014), so there is challenges and we hope resolve issues as soon.
+Warning: COBFU for C/C++ is not completed yet, don't use it in your real projects or any operational environment, NOW!
+This project started few days ago (21 May 2014), so there is challenges and we hope resolve issues as soon.
 if you have any concern to resolve or help us;  please contact us via khaleghsalehi@gmail.com
 The main idea for COBFU listed below:
 1. Layout transformation
@@ -89,11 +89,14 @@ How to run[Refrence::https://github.com/ryarnyah/AnalyseC]:
     Usage : ./a.out [nbr] [nbr]
     
 
+
+
+
+
 Kind Regards
 Khalegh Salehi
 Last update
 12 Jul 2014, 14:59"
-
 
 
 
