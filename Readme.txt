@@ -36,8 +36,8 @@ while(i<=j)
       printf("The j value is a %d\n",j);
          
   }//End of if
-  i++; // Problem number 1 is here, after obfuscation you must add ; in obfuscate code for i++
-}// End of while
+  i++; /* Problem number 1 is here, after obfuscation you must add ; in obfuscate code for i++ */
+}/* End of while */
 }
 
 
