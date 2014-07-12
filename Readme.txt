@@ -31,23 +31,21 @@ Please enter key manualy in obfuscate source code, this issue wil resole as soon
 */
 void main(){
 int i,j;
-char name[100];
-i=100;
+
 printf("The current value for j is a %d\n",j);
-scanf("%d\n",j);
-i=0;
+scanf("%d",&j);
+i=1;
 while(i<=j)
 {
-  if (i>0){
+  if(i>=0){
       printf("The i value is a %d\n",i);
       printf("The j value is a %d\n",j);
          
   }//End of if
   i++; // Problem number 1 is here, after obfuscation you must add ; in obfuscate code for i++
 }// End of while
-
-
 }
+
 
 
 
