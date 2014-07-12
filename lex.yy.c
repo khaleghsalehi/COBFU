@@ -761,14 +761,35 @@ int yy_flex_debug = 0;
 char *yytext;
 #line 1 "analyse.l"
 /*
-////////////////////////////////////
-			    COBFU
-			by: Khalegh Salehi 
-        	  Email:khaleghsalehi@gmail.com
+
+     This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+     This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>
+***************************************************************************
+COBFU, C/C++ obfuscator
+Authors & contribute :
+	Ryarbyah{
+		 Main Authors: 	
+		 https://github.com/ryarnyah/AnalyseC
+		 C Obfuscator; http://not2do4programing.wordpress.com/
+	}
+	Khalegh{
+		 Continues:
+		 https://github.com/khaleghsalehi/COBFU
+		 Khalegh Salehi 
+        	 Email:khaleghsalehi@gmail.com
+	}
 Note:	
 	[+] Add \ to break the line in c source code			 
 */
-#line 18 "analyse.l"
+#line 39 "analyse.l"
 #include <stdio.h>
 #include <stdlib.h>
 #include "cons.h"
@@ -790,7 +811,7 @@ static int byPass = 0;
 //define global variable for parse_akolad
 char buff11[1000];
 char polbuff11[1000];
-#line 794 "lex.yy.c"
+#line 815 "lex.yy.c"
 
 #define INITIAL 0
 
@@ -977,9 +998,9 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
     
-#line 41 "analyse.l"
+#line 62 "analyse.l"
 
-#line 983 "lex.yy.c"
+#line 1004 "lex.yy.c"
 
 	if ( !(yy_init) )
 		{
@@ -1064,503 +1085,503 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 42 "analyse.l"
+#line 63 "analyse.l"
 { parse_while();}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 43 "analyse.l"
+#line 64 "analyse.l"
 { comment();}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 44 "analyse.l"
+#line 65 "analyse.l"
 { newprintf();}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 45 "analyse.l"
+#line 66 "analyse.l"
 { newscanf();}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 46 "analyse.l"
+#line 67 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 47 "analyse.l"
+#line 68 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 48 "analyse.l"
+#line 69 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 49 "analyse.l"
+#line 70 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 50 "analyse.l"
+#line 71 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 51 "analyse.l"
+#line 72 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 52 "analyse.l"
+#line 73 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 53 "analyse.l"
+#line 74 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 54 "analyse.l"
+#line 75 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 55 "analyse.l"
+#line 76 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 56 "analyse.l"
+#line 77 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 57 "analyse.l"
+#line 78 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 58 "analyse.l"
+#line 79 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 59 "analyse.l"
+#line 80 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 60 "analyse.l"
+#line 81 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 61 "analyse.l"
+#line 82 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 62 "analyse.l"
+#line 83 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 63 "analyse.l"
+#line 84 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 64 "analyse.l"
+#line 85 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 65 "analyse.l"
+#line 86 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 66 "analyse.l"
+#line 87 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 67 "analyse.l"
+#line 88 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 68 "analyse.l"
+#line 89 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
-#line 69 "analyse.l"
+#line 90 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
-#line 70 "analyse.l"
+#line 91 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
-#line 71 "analyse.l"
+#line 92 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
-#line 72 "analyse.l"
+#line 93 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
-#line 73 "analyse.l"
+#line 94 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 74 "analyse.l"
+#line 95 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 75 "analyse.l"
+#line 96 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
-#line 76 "analyse.l"
+#line 97 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 36:
 YY_RULE_SETUP
-#line 77 "analyse.l"
+#line 98 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 37:
 YY_RULE_SETUP
-#line 78 "analyse.l"
+#line 99 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 38:
 YY_RULE_SETUP
-#line 79 "analyse.l"
+#line 100 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 39:
 YY_RULE_SETUP
-#line 80 "analyse.l"
+#line 101 "analyse.l"
 { char * reso = malloc(sizeof(char)*(strlen(yytext) + 1)); memcpy(reso, yytext, sizeof(char)*(strlen(yytext) + 1));cons * res = get_from_key(list, reso, isAuto, byPass); fprintf(currentFile, "%s", res->second); if(byPass==1)byPass=0;}
 	YY_BREAK
 case 40:
 YY_RULE_SETUP
-#line 81 "analyse.l"
+#line 102 "analyse.l"
 {fprintf(currentFile, "%s", yytext);byPass=1;}
 	YY_BREAK
 case 41:
 YY_RULE_SETUP
-#line 82 "analyse.l"
+#line 103 "analyse.l"
 {fprintf(currentFile, "%s", yytext);}
 	YY_BREAK
 case 42:
 YY_RULE_SETUP
-#line 83 "analyse.l"
+#line 104 "analyse.l"
 {fprintf(currentFile, "%s", yytext);}
 	YY_BREAK
 case 43:
 YY_RULE_SETUP
-#line 85 "analyse.l"
+#line 106 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 44:
 YY_RULE_SETUP
-#line 86 "analyse.l"
+#line 107 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 45:
 YY_RULE_SETUP
-#line 87 "analyse.l"
+#line 108 "analyse.l"
 { changedigit(); }
 	YY_BREAK
 case 46:
 /* rule 46 can match eol */
 YY_RULE_SETUP
-#line 88 "analyse.l"
+#line 109 "analyse.l"
 { fprintf(currentFile, "%s", "Digit yytext"); }
 	YY_BREAK
 case 47:
 YY_RULE_SETUP
-#line 90 "analyse.l"
+#line 111 "analyse.l"
 { changedigit(); }
 	YY_BREAK
 case 48:
 YY_RULE_SETUP
-#line 91 "analyse.l"
+#line 112 "analyse.l"
 { changedigit(); }
 	YY_BREAK
 case 49:
 YY_RULE_SETUP
-#line 92 "analyse.l"
+#line 113 "analyse.l"
 { changedigit(); }
 	YY_BREAK
 case 50:
 /* rule 50 can match eol */
 YY_RULE_SETUP
-#line 93 "analyse.l"
+#line 114 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 51:
 YY_RULE_SETUP
-#line 94 "analyse.l"
+#line 115 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 52:
 YY_RULE_SETUP
-#line 95 "analyse.l"
+#line 116 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 53:
 YY_RULE_SETUP
-#line 96 "analyse.l"
+#line 117 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 54:
 YY_RULE_SETUP
-#line 97 "analyse.l"
+#line 118 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 55:
 YY_RULE_SETUP
-#line 98 "analyse.l"
+#line 119 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 56:
 YY_RULE_SETUP
-#line 99 "analyse.l"
+#line 120 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 57:
 YY_RULE_SETUP
-#line 100 "analyse.l"
+#line 121 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 58:
 YY_RULE_SETUP
-#line 101 "analyse.l"
+#line 122 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 59:
 YY_RULE_SETUP
-#line 102 "analyse.l"
+#line 123 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 60:
 YY_RULE_SETUP
-#line 103 "analyse.l"
+#line 124 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 61:
 YY_RULE_SETUP
-#line 104 "analyse.l"
+#line 125 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 62:
 YY_RULE_SETUP
-#line 105 "analyse.l"
+#line 126 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 63:
 YY_RULE_SETUP
-#line 106 "analyse.l"
+#line 127 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 64:
 YY_RULE_SETUP
-#line 107 "analyse.l"
+#line 128 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 65:
 YY_RULE_SETUP
-#line 108 "analyse.l"
+#line 129 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 66:
 YY_RULE_SETUP
-#line 109 "analyse.l"
+#line 130 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 67:
 YY_RULE_SETUP
-#line 110 "analyse.l"
+#line 131 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 68:
 YY_RULE_SETUP
-#line 111 "analyse.l"
+#line 132 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 69:
 YY_RULE_SETUP
-#line 112 "analyse.l"
+#line 133 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 70:
 YY_RULE_SETUP
-#line 113 "analyse.l"
+#line 134 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 71:
 YY_RULE_SETUP
-#line 114 "analyse.l"
+#line 135 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 72:
 YY_RULE_SETUP
-#line 115 "analyse.l"
+#line 136 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 73:
 YY_RULE_SETUP
-#line 116 "analyse.l"
+#line 137 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 74:
 YY_RULE_SETUP
-#line 117 "analyse.l"
+#line 138 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 75:
 YY_RULE_SETUP
-#line 118 "analyse.l"
+#line 139 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 76:
 YY_RULE_SETUP
-#line 119 "analyse.l"
+#line 140 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 77:
 YY_RULE_SETUP
-#line 120 "analyse.l"
+#line 141 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 78:
 YY_RULE_SETUP
-#line 121 "analyse.l"
+#line 142 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 79:
 YY_RULE_SETUP
-#line 122 "analyse.l"
+#line 143 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 80:
 YY_RULE_SETUP
-#line 123 "analyse.l"
+#line 144 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 81:
 YY_RULE_SETUP
-#line 124 "analyse.l"
+#line 145 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 82:
 YY_RULE_SETUP
-#line 125 "analyse.l"
+#line 146 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 83:
 YY_RULE_SETUP
-#line 126 "analyse.l"
+#line 147 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 84:
 YY_RULE_SETUP
-#line 127 "analyse.l"
+#line 148 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 85:
 YY_RULE_SETUP
-#line 128 "analyse.l"
+#line 149 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 86:
 YY_RULE_SETUP
-#line 129 "analyse.l"
+#line 150 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 87:
 YY_RULE_SETUP
-#line 130 "analyse.l"
+#line 151 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 88:
 YY_RULE_SETUP
-#line 131 "analyse.l"
+#line 152 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 89:
 YY_RULE_SETUP
-#line 132 "analyse.l"
+#line 153 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 90:
 YY_RULE_SETUP
-#line 133 "analyse.l"
+#line 154 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 91:
 YY_RULE_SETUP
-#line 134 "analyse.l"
+#line 155 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 92:
 YY_RULE_SETUP
-#line 135 "analyse.l"
+#line 156 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 93:
 YY_RULE_SETUP
-#line 136 "analyse.l"
+#line 157 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 94:
 YY_RULE_SETUP
-#line 137 "analyse.l"
+#line 158 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 95:
 YY_RULE_SETUP
-#line 138 "analyse.l"
+#line 159 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 96:
 /* rule 96 can match eol */
 YY_RULE_SETUP
-#line 139 "analyse.l"
-{ fprintf(currentFile, "%s", yytext); } 
+#line 160 "analyse.l"
+{ fprintf(currentFile, "%s", ""); }
 	YY_BREAK
 case 97:
 YY_RULE_SETUP
-#line 140 "analyse.l"
+#line 161 "analyse.l"
 { fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 98:
 YY_RULE_SETUP
-#line 141 "analyse.l"
+#line 162 "analyse.l"
 { /* ignore bad characters */ fprintf(currentFile, "%s", yytext); }
 	YY_BREAK
 case 99:
 YY_RULE_SETUP
-#line 143 "analyse.l"
+#line 164 "analyse.l"
 ECHO;
 	YY_BREAK
-#line 1564 "lex.yy.c"
+#line 1585 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -2558,7 +2579,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 143 "analyse.l"
+#line 164 "analyse.l"
 
 
 
