@@ -14,6 +14,17 @@ Simple architecture:
                                   +---------+
        [C/C++ Source code]------> |  COBFU  |-------> [Obfuscated C/C++ code]
                                   +---------+       
+                                       \
+                                        \
+                                         \
+                     +-------------------------------------------+
+                     | flex(The Fast Lexical Analyzer) parse the |
+                     | source code  and obfuscation algorithms   |
+                     | apply here, the result is a obfuscated    |
+                     |       source code(Spaghetti Code)         |
+                     +-------------------------------------------+
+                     
+
 How it works:
        you can find out some good and valuable information in attached papers, everything is defined with details.
 Methods for source code obfuscation:
