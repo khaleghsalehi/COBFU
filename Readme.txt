@@ -2,7 +2,7 @@ CORFU
 =====
 Warning: COBFU for C/C++ is not completed yet, dont use it in your real projects or any operational environment, NOW!
 This project started afew days ago (21 May 2014), so there is challenges and we hope resolve issues as soon.
-if you have any concern to resolve or help me please contact me via khaleghsalehi@gmail.com
+if you have any concern to resolve or help us;  please contact us via khaleghsalehi@gmail.com
 The main idea for COBFU listed below:
 1. Layout obfuscation
 2. Data type obfuscation
@@ -15,14 +15,8 @@ Current issue:
  [1] at CFG chapter , problem in stack returned value in (CFG), uninvited droped last semicolon(;)
  [2] in Layout Transformation. original printf("") functions parser have a problem, other state with format string work correctly, now
 
-Kind Regards
-Khalegh Salehi
-12 Jul 2014
 
-
-
-
-Try this source code:
+Try this source code for current under-develop version:
 ================================================
 
 #include<stdio.h>
@@ -45,6 +39,13 @@ while(i<=j)
   i++; // Problem number 1 is here, after obfuscation you must add ; in obfuscate code for i++
 }// End of while
 }
+
+
+
+Kind Regards
+Khalegh Salehi
+Last update
+12 Jul 2014, 14:59"
 
 
 
