@@ -1,9 +1,19 @@
 Welcome to COBFU
 ================
-COBFU is a research based project for Software Security improvement. This project mainly and not limited for source code
+
+Brief introduction:
+
+       COBFU is a research based project for Software Security improvement. This project mainly and not limited for source code
 has been programmed with C/C++ . Currently COBFU under research
 and implementation phase. Source code obfuscation is on of the "Defence in Depth" concept in software security, hope to make complexity during
 reverse engineering both in Static and Dynamic analyse.
+
+Architecture:
+
+
+
+
+
 
 
 Warning: COBFU for C/C++ is not completed yet, dont use it in your real projects or any operational environment, NOW!
