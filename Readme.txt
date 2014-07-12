@@ -40,7 +40,30 @@ while(i<=j)
 }/* End of while */
 }
 
-
+How to run[Refrence::https://github.com/ryarnyah/AnalyseC]:
+      To compile you need flex:
+      Debian/Ubuntu:
+      apt-get install flex
+      
+    How it work:
+    $ make
+    $ ./gram file.c file1.h <...>
+    $ ls
+    file.c file.c_ file1.h file1.h_ convert.h gram
+    $ # file with '_' is obfuscated
+    $ # file convert.h have all obfuscation connections
+    $ # to compile 
+    $ gcc file.c_ file1.h convert.h -o file
+    $ ./file
+    
+    To test it:
+    $ ./gram arithmetique.c
+    $ ls
+    arithmetique.c arithmetique.c_ gram convert.h
+    $ gcc arithmetique.c_ convert.h -std=c99 -o test
+    $ ./test
+    Usage : ./a.out [nbr] [nbr]
+    
 
 Kind Regards
 Khalegh Salehi
