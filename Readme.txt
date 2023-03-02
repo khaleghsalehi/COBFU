@@ -99,14 +99,6 @@ How to run[Refrence::https://github.com/ryarnyah/AnalyseC]:
     $ ./test
     Usage : ./a.out [nbr] [nbr]
     
-
-
-
-
-
-Kind Regards
-Khalegh Salehi
-Last update
 12 Jul 2014, 14:59"
 
 
